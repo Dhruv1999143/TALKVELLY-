@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="home.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>GJ</h1>
+            </div>
+            
+            <nav class="icon-menu">
+            <ul>
+             <li><a href="home.html"><img src="Pic/IMG_0730.PNG" alt="Home"></a></li>
+                    <li><a href="serach page .html"><img src="Pic/Pic/IMG_0734.PNG" alt="serach"></a></li>
+                    <li><a href="#messages"><img src="Pic/IMG_143massage.JPG"alt="Messages"></a></li>
+                    <li><a href="job.html"><img src="IMG_job143.JPG" alt="Jobfind"></a></li>
+                    <li><a href="#profile"><img src="profile-icon.png" alt="Profile"></a></li>
+                
+            </ul>
+             </nav>
+        </aside>
+
+        <main class="main-content">
+            <section class="post-form">
+                <h2>Create a Post</h2>
+                <form action="post.php" method="POST">
+                    <textarea placeholder="What's on your mind?" required></textarea>
+                    <input type="file" accept="image/*">
+                    <button type="submit">Post</button>
+                </form>
+            </section>
+
+            <section class="feed">
+                <h2>Feed</h2>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="profile-pic"><img src="profile1.jpg" alt="User Profile"></div>
+                        <span class="username">username1</span>
+                    </div>
+                    <img src="post1.jpg" alt="Post Image">
+                    <div class="post-interactions">
+                        <button>Like</button>
+                        <button>Comment</button>
+                        <button>Share</button>
+                    </div>
+                    <div class="comments">
+                        <p><strong>username2:</strong> Great picture!</p>
+                    </div>
+                </div>
+                <!-- Repeat for more posts -->
+            </section>
+        </main>
+
+        <aside class="side-menu">
+            <nav>
+                <ul>
+                    <li><a href="setting.html">Settings</a></li>
+                    <li><a href="halp.html">Help</a></li>
+                    <li><a href="log out .html">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+
+    <footer>
+    </footer>
+</body>
+</html>

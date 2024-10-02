@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="search page .css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>GJ</h1>
+            </div>
+            <nav class="icon-menu">
+                <ul>
+                    <li><a href="#home"><img src="home-icon.png" alt="Home"></a></li>
+                    <li><a href="#explore"><img src="explore-icon.png" alt="Explore"></a></li>
+                    <li><a href="#messages"><img src="messages-icon.png" alt="Messages"></a></li>
+                    <li><a href="#notifications"><img src="notifications-icon.png" alt="Notifications"></a></li>
+                    <li><a href="#profile"><img src="profile-icon.png" alt="Profile"></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h2>Search</h2>
+            <form class="search-bar" action="search_results.php" method="GET">
+                <input type="text" name="query" placeholder="Search for jobs, items, people..." class="search-input" required>
+                <button type="submit" class="search-button">Search</button>
+            </form>
+
+            <!-- You can add a section to show recent searches or popular searches if needed -->
+            <section class="recent-searches">
+                <h3>Recent Searches</h3>
+                <ul>
+                    <li><a href="#search1">Graphic Designer Jobs</a></li>
+                    <li><a href="#search2">Used Laptops</a></li>
+                    <li><a href="#search3">John Doe</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <aside class="side-menu">
+            <nav>
+                <ul>
+                    <li><a href="#contact-support">Contact Support</a></li>
+                    <li><a href="#logout">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MyApp. All rights reserved.</p>
+    </footer>
+</body>
+</html>
